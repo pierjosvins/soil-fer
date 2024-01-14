@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Soil Fer' - Home</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css') }}">
+    <!-- style css -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/responsive.css')}}">
+    <!-- fevicon -->
+    <link rel="icon" href="{{url_for('static', filename='images/fevicon.png')}}" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.min.css')}} ">
+    <!-- Tweaks for older IEs-->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="{{ url_for('static', filename='images/loading.gif') }}" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-9 ">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo">
+                                    <a href="{{ url_for('home')}}"><img class="logo-img" src="{{ url_for('static', filename='images/logo.png') }} " alt="#" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-3">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarsExample04">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="{{ url_for('home')}}"> Home  </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#product">Services </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header inner -->
+    <!-- end header -->
+    <!-- banner -->
+    <section class="banner_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="text-bg">
+                        <h1>SOIL FER'</h1>
+                        <h2>
+                            Smart Agriculture for everyone
+                        </h2>
+                        <p>Platform for soil fertility prediction to improve crop yields, ensure sustainable agriculture, and reduce costs with our user-friendly interface and accurate predictions using Machine Learning.</p>
+                        <a href="#hottest">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner -->
+    <!-- three_box -->
+    <div class="three_box">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box_text">
+                        <figure><img class="img-same" src="{{ url_for('static', filename='images/soil-fertility.jpg') }}" alt="#" /></figure>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box_text">
+                        <figure><img class="img-same" src="{{ url_for('static', filename='images/img3.jpg') }}" alt="#" /></figure>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box_text">
+                        <figure><img class="img-same" src="{{ url_for('static', filename='images/fertilizer.jpg') }}" alt="#" /></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- three_box -->
+    <!-- hottest -->
+    <div class="hottest" id="hottest">
+        <div class="container">
+            <div class="row d_flex">
+                <div class="col-md-5">
+                    <div class="titlepage">
+                        <h2>SOIL FER' <br>
+                            <h2>Smart Agriculture for everyone</h2>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="hottest_box">
+                        <p>
+                            Our Soil Fertility prediction and Fertilizers and Crops recommendation application is designed to help farmers improve crop yield and sustainability. By analyzing soil data and weather patterns, the app provides personalized fertilizers recommendations
+                            and suggests the most suitable crops to plant. With the ability to track and compare results over time, farmers can make informed decisions to optimize their crop production and maximize their profits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- end hottest -->
+    <!-- choose  section -->
+    <div class="choose" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="titlepage">
+                        <h2>Why Choosing Soil Fer'? </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="container-fluid">
+            <div class="row d_flex">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                    <div class="padding_with">
+                        <div class="row">
+                            <div class="col-md-6 padding_bottom">
+                                <div class="choose_box">
+                                    <div class="choose_text">
+                                        <h3>Product recommendations</h3>
+                                        <p>Soil Fer' recommends products that can help you to improve soil fertility, such as fertilizers to use and crop to plant.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 padding_bottom">
+                                <div class="choose_box">
+                                    <div class="choose_text">
+                                        <h3>Expert advice</h3>
+                                        <p>We provide expert advice on how to improve soil fertility including the ability to ask questions and get personalized advice by contacting us.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 padding_bottom2">
+                                <div class="choose_box">
+                                    <div class="choose_text">
+                                        <h3>User-friendly interface</h3>
+                                        <p>Soil Fer' is easy to navigate and helps you to find the information you need.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="choose_box">
+                                    <div class="choose_text">
+                                        <h3>Continuous improvement</h3>
+                                        <p>
+                                            Our team is dedicated to continuously improving our platform and integrating new technologies as they become available. We are committed to providing you with the most accurate and up-to-date information and predictions possible.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                    <div class="choose_img">
+                        <figure><img src="{{ url_for('static', filename='images/food.jpg')}}" alt="#" /></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end choose  section -->
+    <!-- product  section -->
+    <div class="product" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="titlepage">
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row text-center row-cards">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-4 card-container">
+                    <div class="card card-flip">
+                        <div class="front card-block">
+                            <div class="product_box">
+                                <figure><img src="{{ url_for('static', filename='images/soil-fertility.jpg') }}" alt="#" /></figure>
+                                <h3>Soil Fertility Prediction</h3>
+                            </div>
+                        </div>
+                        <div class="back card-block">
+                            <p>
+                                Soil Fer' predicts whether a soil is fertile or not based on soil property data (Clay, CEC, sand, CaCO3 and Fe) to help farmers and agronomists make informed decisions.
+                            </p>
+                            <div class="text-bg">
+                                <a class="predict" href="{{ url_for('fertility')}}">Make Prediction</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-4 card-container">
+                    <div class="card card-flip">
+                        <div class="front card-block">
+                            <div class="product_box">
+                                <figure><img src="{{ url_for('static', filename='images/mais.jpeg') }} " alt="#" /></figure>
+                                <h3>Crop Recommendation</h3>
+                            </div>
+                        </div>
+                        <div class="back card-block">
+                            <p>
+                                Soil Fer' recommends the most appropriate crop for the soil in your area, based on its properties and the weather conditions.
+                            </p>
+                            <div class="text-bg">
+                                <a class="predict" href="{{ url_for('crop')}}">Make Prediction</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mb-4 card-container">
+                    <div class="card card-flip">
+                        <div class="front card-block">
+                            <div class="product_box">
+                                <figure><img src="{{ url_for('static', filename='images/fertilizer.jpg') }}" alt="#" /></figure>
+                                <h3>Fertilizer Recommendation</h3>
+                            </div>
+                        </div>
+                        <div class="back card-block">
+                            <p>Soil Fer' makes informed and accurate recommendations on what type of fertilizer to apply to a specific location based on soil properties, allowing you to maximize your time and profits.</p>
+                            <div class="text-bg">
+                                <a class="predict" href="{{ url_for('fertilizer')}}">Make Prediction</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+                <div class="text-bg">
+                    <a class="predict" href="products.html">Use our services</a>
+                </div>
+            -->
+
+        </div>
+    </div>
+    <!-- end product  section -->
+    <!-- about -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Soil Fer' Founders</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <p style="font-size: 18px;">
+                                    As a data scientist, I am excited to take on a challenging and impactful project to predict soil fertility using machine learning techniques. Soil fertility is a vital aspect of agriculture that plays a crucial role in determining the growth and productivity of plants. By understanding soil fertility, farmers and agricultural scientists can make informed decisions about crop selection, fertilizer application, and other management practices. By utilizing advanced data analysis techniques, and machine learning, I am confident we can uncover valuable insights that will help improve soil fertility predictions. This field of soil fertility prediction using Machine Learning is still in its infancy and presents a vast opportunity for innovation. I believe our work on this project can play a significant role in advancing this field, and ultimately lead to more accurate and reliable soil fertility predictions.
+                                </p>
+                                <img src="{{ url_for('static', filename='images/pierjos.jpg') }}" class="img-fluid">
+                                <div id="image-caption">Pierjos Francis COLERE MBOUKOU</div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p style="font-size: 18px;">
+                                    I chose to work on a project in soil fertility prediction because of its potential impact on agriculture and the environment. As a data science student, I am particularly interested in using data-driven approaches to tackle complex problems, and soil fertility prediction fits this criterion perfectly. By analyzing soil data, such as pH, nutrient levels, and organic matter content, we use machine learning techniques to build predictive models that can help farmers optimize their land management practices. Additionally, by studying the underlying factors that influence soil fertility, we contribute to the broader field of environmental science and agriculture. Overall, this project allows me to apply my skills and knowledge in data science to make a meaningful difference in the world.
+                                </p>
+                                <img src="{{ url_for('static', filename='images/hajar.jpeg') }}" class="img-fluid">
+                                <div id="image-caption">Hajar LHAMYANI</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p style="font-size: 18px;">
+                                    As a future data scientist, I am always looking for opportunities to use my skills and knowledge to make a positive impact on the world. I became involved in this project about soil fertility because I saw the potential to use data and analytics to understand
+                                    and improve soil health. By analyzing soil data and developing predictive models, I hope to contribute to the development of new techniques and technologies for improving soil fertility and supporting sustainable agriculture.
+                                    I am excited to be a part of this project and to use my data science skills to make a difference.
+                                </p>
+                                <img src="{{ url_for('static', filename='images/asmae.jpeg') }}" class="img-fluid">
+                                <div id="image-caption">Asmae OUHSSAIN</div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <p style="font-size: 18px;">
+                                    M2 data science student at University Mohammed VI Polytechnic , I'm involved in this project in agriculture field , that principally aims to help farmers detect the type of their soil and give them suggestions of different solutions to develop their crop
+                                    yield , through this involvement I have developed a range of skills and experiences , including teamwork , problem solving , communication and leadership.
+                                </p>
+                                <img src="{{ url_for('static', filename='images/ilham.jpeg') }}" class="img-fluid">
+                                <div id="image-caption">Ilham AARAB</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <i class='fas fa-arrow-left'></i>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <i class='fas fa-arrow-right'></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    </div>
+    <!--  footer -->
+    <footer id="contact">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="titlepage">
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                    	<ul>
+                    		<li>
+		            		<div class="row">
+				                <div class="col-md-6">
+				                    <h2 class="h2-white">Pierjos Francis COLERE</h2>
+				                </div>
+				                <div class="col-md-6">
+				                    <a class="h2-white" target="_blank" href="mailto:Pierjos.COLERE@um6p.ma">Pierjos.COLERE@um6p.ma</a>
+				                </div>
+		                    	</div>
+                           	</li>
+                           	<li>
+		            		<div class="row">
+				                <div class="col-md-6">
+				                    <h2 class="h2-white">Hajar LHAMYANI</h2>
+				                </div>
+				                <div class="col-md-6">
+				                    <a class="h2-white" target="_blank" href="mailto:Hajar.LHAMYANI@um6p.ma">Hajar.LHAMYANI@um6p.ma</a>
+				                </div>
+		                    	</div>
+                           	</li>
+                           	<li>
+		            		<div class="row">
+				                <div class="col-md-6">
+				                    <h2 class="h2-white">Asmae OUHSSAIN</h2>
+				                </div>
+				                <div class="col-md-6">
+				                    <a class="h2-white" target="_blank" href="mailto:Asmae.OUHSSAIN@um6p.ma">Asmae.OUHSSAIN@um6p.ma</a>
+				                </div>
+		                    	</div>
+                           	</li>
+                           	<li>
+		            		<div class="row">
+				                <div class="col-md-6">
+				                    <h2 class="h2-white">Ilham.AARAB</h2>
+				                </div>
+				                <div class="col-md-6">
+				                    <a class="h2-white" target="_blank" href="mailto:Ilham.AARAB@um6p.ma">Ilham.AARAB@um6p.ma</a>
+				                </div>
+		                    	</div>
+                           	</li>
+                    	</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <p>All Right Reserved By
+                            <a href="#"> Soil Fer'</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='js/popper.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='js/jquery-3.0.0.min.js') }} "></script>
+    <!-- sidebar -->
+    <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }} "></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }} "></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            var front = document.getElementsByClassName("front");
+            var back = document.getElementsByClassName("back");
+
+            var highest = 0;
+            var absoluteSide = "";
+
+            for (var i = 0; i < front.length; i++) {
+                if (front[i].offsetHeight > back[i].offsetHeight) {
+                    if (front[i].offsetHeight > highest) {
+                        highest = front[i].offsetHeight;
+                        absoluteSide = ".front";
+                    }
+                } else if (back[i].offsetHeight > highest) {
+                    highest = back[i].offsetHeight;
+                    absoluteSide = ".back";
+                }
+            }
+            $(".front").css("height", highest);
+            $(".back").css("height", highest);
+            $(absoluteSide).css("position", "absolute");
+        });
+    </script>
+</body>
+
+</html>
